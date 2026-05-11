@@ -1,0 +1,247 @@
+*{ 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html, body{
+     height: 100%;
+width: 100%;
+}
+
+#container{
+     height: 100%;
+     width: 100%;
+     background-color:rgb(0,0,0);
+}
+/*top of page - navigation bar */
+
+#nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#nav #links{
+    display: flex;
+    justify-content:space-evenly;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#nav #links a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 5 rem;
+    font-weight: normal;
+    border: none;
+    border-radius: 5px;
+}
+#nav #links a:hover{
+    color: rgb(254,73,9);
+    cursor: pointer;
+}
+
+#nav #logo{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+#nav img{
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: -20%;
+}
+
+#nav #main-button{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#nav #main-button button{
+    height: 50%;
+    width: 25%;
+    background-color: rgb(18,18,18);
+    font-size: 5 rem;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 20%;
+    border: 1px solid rgb(73, 73, 73);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav #main-button button:hover{
+    background-color: rgb(254,73,9);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/*banner - insights & blogs*/
+
+#banner{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+
+}
+#banner div{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#banner h3{
+    color: whitesmoke;
+    font-size: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+/* page navigation */
+
+#pg-nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+#pg-nav button{
+    height: 50%;
+    width: 5%;
+    background-color: rgb(18,18,18);
+    font-size: 2.5 rem;
+    font-weight: 600;
+    color: whitesmoke;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pg-nav :nth-child(1){
+    background-color: rgb(254,73,9);
+}
+
+/*main content - blogs*/
+
+#content-cards{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+
+#content-cards .cards{
+    height: 90%;
+    width: 20%;
+    border-radius: 20px;
+    background-color: rgb(18,18,18);
+}
+
+
+#content-cards .cards #img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#content-cards .cards #img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+#content-cards .cards #title-tag{
+    height: 10%;
+    width: 100%;
+    position: relative;
+}
+#content-cards .cards #title-tag button{
+    height: 80%;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(88,30,9);
+    color: rgb(222,130,89);
+    font-size: 100% ;
+    font-weight: 600;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    
+}#content-cards .cards #title-tag #market{
+    height: 10%;
+    width: 100%;
+    position: relative;
+}
+
+#content-cards .cards #title-tag #market{
+    height: 80%;
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(88,30,9);
+    color: rgb(222,130,89);
+    font-size: 100% ;
+    font-weight: 600;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    
+}
+#content-cards .cards #title-ln{
+   height: 20%;
+   width: 100%;
+   position: relative;
+}
+#content-cards .cards #title-ln h4{
+    height: 100%;
+    color: rgb(222,222,222);
+    font-size: 160%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 3%;
+}
+#content-cards .cards #date{
+    height: 10%;
+    width: 100%;
+    color: rgb(73, 73, 73);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+#content-cards .cards #date p{
+    height: 10%;
+    width: 100%;
+    color: rgb(222,222,222);
+    position: absolute;
+    left: 3%;
+    
+}
