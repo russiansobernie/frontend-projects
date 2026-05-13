@@ -1,0 +1,73 @@
+*{ 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html, body{
+     height: 100%;
+width: 100%;
+}
+
+body{
+    background-image: url('./background.webp');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#nav-bar{
+    height: 10%;
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#nav-bar #logo{
+    height: 100%;
+    width: 20%;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0px 50px;
+}
+#nav-bar #logo img{
+    height: 100%;
+    width: 50%;
+}
+
+#nav-links{
+    height: 100%;
+    width: 60%;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+
+}
+#nav-links a{
+    height: 100%;
+    width: 25%;
+    margin: 0px 20px;
+    font-size:medium;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav-links :nth-child(2){
+    border-bottom: 2px solid rgb(128,15,55);   
+}
+
+#menu{
+    height: 100%;
+    width: 20%;
+    border: 2px solid white;  
+    padding: 15px 50px;
+}
+
+#menu img{
+    height: 50%;
+    width: 15%;
+    border: 2px solid white;  
+    
+
+}
