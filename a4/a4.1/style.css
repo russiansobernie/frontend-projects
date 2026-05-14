@@ -1,0 +1,203 @@
+*{ 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html, body{
+     height: 100%;
+width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns:2fr 3fr 1fr 2fr 2fr;
+    grid-template-rows: 2fr 3fr 1fr 2fr 2fr;
+
+    grid-template-areas: 
+    "tl   tml   tml    tmr    tr"
+    "tl   midml midml  midml   tr"
+    "btml midml midml midml   tr"
+    "btml midml midml midml   btmr"
+    "btml btmm  btmlr btmlr  btmr";  
+    
+    padding: 10px;
+    gap: 10px;
+}
+
+#t-l{
+    background-color: rgb(1, 128, 255);
+    grid-area: tl;
+    border-radius: 30px;
+}
+#t-ml{
+    background-color: rgb(6, 140, 170);
+    grid-area: tml;
+    border-radius: 30px;
+
+}
+#t-ml2{
+    background-color: rgb(3, 143, 131);
+    grid-area: tml;
+    border-radius: 30px;
+
+}
+#t-mr{
+    background-color: rgb(4, 72, 74);
+    grid-area: tmr;
+    border-radius: 30px;
+
+}
+#t-r{
+    background-color: rgb(84, 140, 149);
+    grid-area: tr;
+    border-radius: 30px;
+
+}
+
+
+#mid-l{
+    background-color: rgb(31, 150, 120);
+    grid-area: tl;
+      border-radius: 30px;
+
+}
+#mid-ml{
+    background-color: rgb(154, 61, 148);
+    grid-area: midml;
+    border-radius: 30px;
+
+}
+#mid-ml2{
+    grid-area: midml;
+    background-color: rgb(29, 1, 30);
+    border-radius: 30px;
+
+}
+#mid-mr{
+    background-color: rgb(144, 37, 136);
+    grid-area: midml;
+    border-radius: 30px;
+
+
+}
+#mid-r{
+    background-color: rgb(212, 99, 232);
+    grid-area: tr;
+    border-radius: 30px;
+
+
+}
+
+
+#cent-l{
+    background-color: rgb(43, 34, 45);
+    grid-area: btml;
+    border-radius: 30px;
+
+}
+#cent-ml{
+    background-color: rgb(21, 0, 255);
+    grid-area: midml;
+    border-radius: 30px;
+
+    
+
+}
+#cent-ml2{
+    background-color: rgb(255, 153, 0);
+    grid-area: midml;
+    border-radius: 30px;
+
+
+}
+#cent-mr{
+    background-color: rgb(237, 3, 3);
+    grid-area: midml;
+    border-radius: 30px;
+
+
+}
+#cent-r{
+    background-color: blanchedalmond;
+    grid-area: tr;
+    border-radius: 30px;
+
+
+}
+
+
+#above-btm-l{
+    background-color: rgb(12, 169, 209);
+    grid-area: btml;
+    border-radius: 30px;
+
+
+}
+#above-btm-ml{
+    background-color: rgb(0, 115, 255);
+    grid-area: midml;
+    border-radius: 30px;
+
+
+}
+#above-btm-ml2{
+    background-color: rgb(55, 255, 0);
+    grid-area: midml;
+    border-radius: 30px;
+
+
+}
+#above-btm-mr{
+    background-color: rgb(0, 255, 166);
+    grid-area: midml;
+    border-radius: 30px;
+
+
+}
+#above-btm-r{
+    background-color: blanchedalmond;
+    grid-area: btmr;
+    border-radius: 30px;
+
+
+}
+
+
+#btm-l{
+    background-color: rgb(147, 6, 44);
+    grid-area: btml;
+    border-radius: 30px;
+
+
+}
+#btm-ml{
+    background-color: rgb(142, 93, 19);
+    grid-area: btmm;
+    border-radius: 30px;
+
+
+}
+#btm-ml2{
+    background-color: rgb(84, 71, 51);
+    grid-area: btmlr;
+    border-radius: 30px;
+
+
+}
+#btm-mr{
+    background-color: rgb(24, 20, 12);
+    grid-area: btmlr;
+    border-radius: 30px;
+
+
+}
+#btm-r{
+    background-color: rgb(75, 53, 19);
+    grid-area: btmr;
+    border-radius: 30px;
+
+
+}
